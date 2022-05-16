@@ -160,3 +160,39 @@ a:hover {
     letter-spacing: 4px;
     font-size: 40px;
 }
+
+
+/* ANIMAÇÃO DO MENU */
+
+#toggle:checked+.checkbox .trace:nth-child(1) {
+    transform: rotate(45deg);
+    background-color: #2E1C2B;
+    top: 47px;
+}
+
+#toggle:checked+.checkbox .trace:nth-child(2) {
+    transform: translateX(-100px);
+    width: 30px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#toggle:checked+.checkbox .trace:nth-child(3) {
+    transform: rotate(-45deg);
+    background-color: #2E1C2B;
+    top: 48px;
+}
+
+#toggle:checked+.checkbox {
+    background-color: white;
+}
+
+#toggle:checked~.menu {
+    box-shadow: 0px 0px 0px 100vmax white;
+    z-index: 1;
+}
+
+#toggle:checked~.menu-items {
+    visibility: visible;
+    opacity: 1;
+}
