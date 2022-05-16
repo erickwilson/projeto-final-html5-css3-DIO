@@ -296,3 +296,33 @@ a:hover {
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 800px) {
+    .social-media {
+        display: flex;
+        flex-direction: column;
+    }
+    .container {
+        margin-top: 0;
+    }
+    .card-container {
+        flex-direction: column;
+    }
+    .container .card-container:nth-child(1),
+    .container .card-container:nth-child(3) {
+        flex-direction: column-reverse;
+    }
+    .card {
+        height: 250px;
+        width: 250px;
+    }
+    .card-text {
+        width: 90%;
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .card:hover>.card-wrapper::before {
+        height: 190px;
+        width: 190px;
+    }
+}
