@@ -4,4 +4,5 @@
 
 Portfólio criado utilizando HTML5 e CSS3.
 
-Animações feitas com CSS Transitions utilizando pseudo elementos e pseudo classes e também CSS @keyframes
+Animações feitas com CSS Transitions utilizando pseudo elementos e pseudo classes e também CSS @keyframes.
+Bootcamp TQI Fullstack Developer - DIO
